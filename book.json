@@ -1,7 +1,7 @@
 {
     "title" : "学习笔记",
-    "author" : "余得水",
-    "description" : "这是用来练习写作或者学习笔记的静态网页",
+    "author" : "sadcoder333",
+    "description" : "日常工作中用到的一些技术总结",
     "language" : "zh-hans",
     
     "links" : {
@@ -19,12 +19,18 @@
 		"back-to-top-button",
 		"-lunr", 
 		"-search", 
-		"search-pro"
+		"search-pro",
+		"tbfed-pagefooter"
     ],
 
     "pluginsConfig": {
        	"github": {
             "url": "https://github.com/sadcoder333"
+        },
+		"tbfed-pagefooter": {
+            "copyright":"Copyright All Reserved .",
+            "modify_label": "Last Modified On：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
 
