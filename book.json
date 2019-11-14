@@ -1,0 +1,31 @@
+{
+    "title" : "学习笔记",
+    "author" : "余得水",
+    "description" : "这是用来练习写作或者学习笔记的静态网页",
+    "language" : "zh-hans",
+    
+    "links" : {
+        "sidebar" : {
+           "GitHub主页" : "https://github.com/sadcoder333"
+    	}
+    },    
+
+    "plugins": [
+		"-sharing",
+		"github", 
+		"splitter",
+		"copy-code-button",
+		"expandable-chapters-small",
+		"back-to-top-button",
+		"-lunr", 
+		"-search", 
+		"search-pro"
+    ],
+
+    "pluginsConfig": {
+       	"github": {
+            "url": "https://github.com/sadcoder333"
+        }
+    }
+
+}
