@@ -1,6 +1,6 @@
 ## 标准c字符和字符串
 
---------------------------------------------------------------------------------
+
 
 ## atof
 语法:
@@ -19,7 +19,7 @@ x的值为42.0.
 atoi() and atol().
 
 
---------------------------------------------------------------------------------
+
 
 ## atoi
 
@@ -39,7 +39,7 @@ i 的值为 512.
 atof() and atol().
 
 
---------------------------------------------------------------------------------
+
 
 ## atol
 
@@ -59,7 +59,7 @@ x的值为1024L.
 atof() and atoi().
 
 
---------------------------------------------------------------------------------
+
 
 ## isalnum
 
@@ -79,7 +79,7 @@ atof() and atoi().
 isalpha(), iscntrl(), isdigit(), isgraph(), isprint(), ispunct(), and isspace().
 
 
---------------------------------------------------------------------------------
+
 
 ## isalpha
 
@@ -101,7 +101,7 @@ isalpha(), iscntrl(), isdigit(), isgraph(), isprint(), ispunct(), and isspace().
 isalnum(), iscntrl(), isdigit(), isgraph(), isprint(), ispunct(), and isspace().
 
 
---------------------------------------------------------------------------------
+
 
 ## iscntrl
 
@@ -117,7 +117,7 @@ isalnum(), iscntrl(), isdigit(), isgraph(), isprint(), ispunct(), and isspace().
 isalnum(), isalpha(), isdigit(), isgraph(), isprint(), ispunct(), and isspace().
 
 
---------------------------------------------------------------------------------
+
 
 ## isdigit
 
@@ -139,7 +139,7 @@ isalnum(), isalpha(), isdigit(), isgraph(), isprint(), ispunct(), and isspace().
 isalnum(), isalpha(), iscntrl(), isgraph(), isprint(), ispunct(), and isspace().
 
 
---------------------------------------------------------------------------------
+
 
 ## isgraph
 
@@ -155,7 +155,7 @@ isalnum(), isalpha(), iscntrl(), isgraph(), isprint(), ispunct(), and isspace().
 isalnum(), isalpha(), iscntrl(), isdigit(), isprint(), ispunct(), and isspace().
 
 
---------------------------------------------------------------------------------
+
 
 ## islower
 
@@ -170,7 +170,7 @@ isalnum(), isalpha(), iscntrl(), isdigit(), isprint(), ispunct(), and isspace().
 isupper()
 
 
---------------------------------------------------------------------------------
+
 
 ## isprint
 
@@ -186,7 +186,7 @@ isupper()
 isalnum(), isalpha(), iscntrl(), isdigit(), isgraph(), ispunct(), and isspace().
 
 
---------------------------------------------------------------------------------
+
 
 ## ispunct
 
@@ -202,7 +202,7 @@ isalnum(), isalpha(), iscntrl(), isdigit(), isgraph(), ispunct(), and isspace().
 isalnum(), isalpha(), iscntrl(), isdigit(), isgraph(), isprint(), and isspace().
 
 
---------------------------------------------------------------------------------
+
 
 ## isspace
 
@@ -218,7 +218,7 @@ isalnum(), isalpha(), iscntrl(), isdigit(), isgraph(), isprint(), and isspace().
 isalnum(), isalpha(), iscntrl(), isdigit(), isgraph(), and ispunct().
 
 
---------------------------------------------------------------------------------
+
 
 ## isupper
 
@@ -234,7 +234,7 @@ isalnum(), isalpha(), iscntrl(), isdigit(), isgraph(), and ispunct().
 tolower()
 
 
---------------------------------------------------------------------------------
+
 
 ## isxdigit
 
@@ -250,7 +250,7 @@ tolower()
 isalnum(), isalpha(), iscntrl(), isdigit(), isgraph(), ispunct(), and isspace().
 
 
---------------------------------------------------------------------------------
+
 
 ## memchr
 
@@ -272,7 +272,7 @@ isalnum(), isalpha(), iscntrl(), isdigit(), isgraph(), ispunct(), and isspace().
 memcpy() and strstr().
 
 
---------------------------------------------------------------------------------
+
 
 ## memcmp
 
@@ -295,7 +295,7 @@ memcpy() and strstr().
 memchr(), memcpy(), and strcmp().
 
 
---------------------------------------------------------------------------------
+
 
 ## memcpy
 
@@ -311,7 +311,7 @@ memchr(), memcpy(), and strcmp().
 memmove().
 
 
---------------------------------------------------------------------------------
+
 
 ## memmove
 
@@ -327,7 +327,7 @@ memmove().
 memcpy().
 
 
---------------------------------------------------------------------------------
+
 
 ## memset
 
@@ -347,7 +347,7 @@ memcpy().
 memcmp(), memcpy(), and memmove().
 
 
---------------------------------------------------------------------------------
+
 
 ## strcat
 
@@ -368,7 +368,7 @@ memcmp(), memcpy(), and memmove().
 strchr(), strcmp(), and strcpy().
 
 
---------------------------------------------------------------------------------
+
 
 ## strchr
 语法:
@@ -383,7 +383,7 @@ strchr(), strcmp(), and strcpy().
 strpbrk(), strspn(), strstr(), and strtok().
 
 
---------------------------------------------------------------------------------
+
 
 ## strcmp
 
@@ -412,7 +412,7 @@ strpbrk(), strspn(), strstr(), and strtok().
 memcmp(), strchr(), strcpy(), and strncmp().
 
 
---------------------------------------------------------------------------------
+
 
 ## strcoll
 
@@ -425,7 +425,7 @@ memcmp(), strchr(), strcpy(), and strncmp().
 功能：比较字符串str1 和 str2, 很象strcmp. 但是, strcoll() 使用在目前环境中由setlocale()设定的次序进行比较。
 
 
---------------------------------------------------------------------------------
+
 
 ## strcpy
 
@@ -441,7 +441,7 @@ memcmp(), strchr(), strcpy(), and strncmp().
 memcpy(), strchr(), strcmp(), strncmp(), and strncpy().
 
 
---------------------------------------------------------------------------------
+
 
 ## strcspn
 
@@ -457,7 +457,7 @@ memcpy(), strchr(), strcmp(), strncmp(), and strncpy().
 strrchr(), strpbrk(), strstr(), and strtok().
 
 
---------------------------------------------------------------------------------
+
 
 ## strerror
 
@@ -470,7 +470,7 @@ strrchr(), strpbrk(), strstr(), and strtok().
 功能：函数返回一个被定义的与某错误代码相关的错误信息。
 
 
---------------------------------------------------------------------------------
+
 
 ## strlen
 
@@ -486,7 +486,7 @@ strrchr(), strpbrk(), strstr(), and strtok().
 memcpy(), strchr(), strcmp(), and strncmp().
 
 
---------------------------------------------------------------------------------
+
 
 ## strncat
 
@@ -502,7 +502,7 @@ memcpy(), strchr(), strcmp(), and strncmp().
 strcat(), strnchr(), strncmp(), and strncpy().
 
 
---------------------------------------------------------------------------------
+
 
 ## strncmp
 
@@ -527,7 +527,7 @@ strcat(), strnchr(), strncmp(), and strncpy().
 strcmp(), strnchr(), and strncpy().
 
 
---------------------------------------------------------------------------------
+
 
 ## strncpy
 
@@ -543,7 +543,7 @@ strcmp(), strnchr(), and strncpy().
 memcpy(), strchr(), strncat(), and strncmp().
 
 
---------------------------------------------------------------------------------
+
 
 ## strpbrk
 
@@ -559,7 +559,7 @@ memcpy(), strchr(), strncat(), and strncmp().
 strspn(), strrchr(), strstr(), and strtok().
 
 
---------------------------------------------------------------------------------
+
 
 ## strrchr
 
@@ -575,7 +575,7 @@ strspn(), strrchr(), strstr(), and strtok().
 strpbrk(), strspn(), strstr(), strtok(),
 
 
---------------------------------------------------------------------------------
+
 
 ## strspn
 
@@ -591,7 +591,7 @@ strpbrk(), strspn(), strstr(), strtok(),
 strpbrk(), strrchr(), strstr(), strtok(),
 
 
---------------------------------------------------------------------------------
+
 
 ## strstr
 
@@ -607,7 +607,7 @@ strpbrk(), strrchr(), strstr(), strtok(),
 strchr(), strcspn(), strpbrk(), strspn(), strtok(), strrchr(),
 
 
---------------------------------------------------------------------------------
+
 
 ## strtod
 
@@ -623,7 +623,7 @@ strchr(), strcspn(), strpbrk(), strspn(), strtok(), strrchr(),
 atof()
 
 
---------------------------------------------------------------------------------
+
 
 ## strtok
 
@@ -657,7 +657,7 @@ atof()
 strchr(), strcspn(), strpbrk(), strrchr(), and strspn().
 
 
---------------------------------------------------------------------------------
+
 
 ## strtol
 
@@ -673,7 +673,7 @@ strchr(), strcspn(), strpbrk(), strrchr(), and strspn().
 atol().
 
 
---------------------------------------------------------------------------------
+
 
 ## strtoul
 
@@ -689,7 +689,7 @@ atol().
 strtol()
 
 
---------------------------------------------------------------------------------
+
 
 ## strxfrm
 
@@ -705,7 +705,7 @@ strtol()
 strcmp(), strcoll(),
 
 
---------------------------------------------------------------------------------
+
 
 ## tolower
 
@@ -721,7 +721,7 @@ strcmp(), strcoll(),
 toupper(),
 
 
---------------------------------------------------------------------------------
+
 
 ## toupper
 
