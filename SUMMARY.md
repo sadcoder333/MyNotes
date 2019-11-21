@@ -94,6 +94,7 @@
             * [Nginx服务器基础配置实例](Nginx/Nginx高性能Web服务器详解/Nginx服务器的安装部署/Nginx服务器基础配置实例/README.md)
                 * [测试myServer1的访问](Nginx/Nginx高性能Web服务器详解/Nginx服务器的安装部署/Nginx服务器基础配置实例/测试myServer1的访问.md)
                 * [测试myServer2的访问](Nginx/Nginx高性能Web服务器详解/Nginx服务器的安装部署/Nginx服务器基础配置实例/测试myServer2的访问.md)
+            * [本章小结](Nginx/Nginx高性能Web服务器详解/Nginx服务器的安装部署/本章小结.md)
         * [Nginx服务器架构初探](Nginx/Nginx高性能Web服务器详解/Nginx服务器架构初探/README.md)
         * [Nginx服务器的高级配置](Nginx/Nginx高性能Web服务器详解/Nginx服务器的高级配置/README.md)
         * [Nginx服务器的Gzip压缩](Nginx/Nginx高性能Web服务器详解/Nginx服务器的Gzip压缩/README.md)
