@@ -21,18 +21,20 @@ ApplicationContext 是 BeanFactory 的子接口，也被称为应用上下文。
 ApplicationContext 接口有两个常用的实现类，具体如下。
 
 - ClassPathXmlApplicationContext
-该类从类路径 ClassPath 中寻找指定的 XML 配置文件，找到并装载完成 ApplicationContext 的实例化工作，具体如下所示。
-```java
-ApplicationContext applicationContext = new ClassPathXmlApplicationContext(String configLocation);
-```
-在上述代码中，configLocation 参数用于指定 Spring 配置文件的名称和位置，如 applicationContext.xml。
+  
+    该类从类路径 ClassPath 中寻找指定的 XML 配置文件，找到并装载完成 ApplicationContext 的实例化工作，具体如下所示。
+    ```java
+    ApplicationContext applicationContext = new ClassPathXmlApplicationContext(String configLocation);
+    ```
+    在上述代码中，configLocation 参数用于指定 Spring 配置文件的名称和位置，如 applicationContext.xml。
 
 - FileSystemXmlApplicationContext
-该类从指定的文件系统路径中寻找指定的 XML 配置文件，找到并装载完成 ApplicationContext 的实例化工作，具体如下所示。
-```java
-ApplicationContext applicationContext = new FileSystemXmlApplicationContext(String configLocation);
-```
-它与 ClassPathXmlApplicationContext 的区别是：在读取 Spring 的配置文件时，FileSystemXmlApplicationContext 不再从类路径中读取配置文件，而是通过参数指定配置文件的位置，它可以获取类路径之外的资源，如“F：/workspaces/applicationContext.xml”。
+  
+    该类从指定的文件系统路径中寻找指定的 XML 配置文件，找到并装载完成 ApplicationContext 的实例化工作，具体如下所示。
+    ```java
+    ApplicationContext applicationContext = new FileSystemXmlApplicationContext(String configLocation);
+    ```
+    它与 ClassPathXmlApplicationContext 的区别是：**在读取 Spring 的配置文件时，FileSystemXmlApplicationContext 不再从类路径中读取配置文件，而是通过参数指定配置文件的位置，它可以获取类路径之外的资源，如“F：/workspaces/applicationContext.xml”。**
 
 在使用 Spring 框架时，可以通过实例化其中任何一个类创建 Spring 的 ApplicationContext 容器。
 

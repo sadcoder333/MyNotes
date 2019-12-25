@@ -55,6 +55,7 @@ public class InstanceTest1 {
 使用 JUnit 测试运行 test() 方法，运行成功后，控制台的输出结果如图 1 所示。
 
 ![](images/result1.png)
+
 图 1  输出结果
 
 从图 1 的输出结果中可以看出，Spring 容器已经成功对 Bean 进行了实例化，并输出了结果。
