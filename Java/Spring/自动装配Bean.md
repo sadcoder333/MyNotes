@@ -38,13 +38,13 @@
         autowire="byName" />
 </beans>
 ```
-在上述配置文件中，用于配置 personService 和 personAction 的 <bean> 元素中除了 id 和 class 属性以外，还增加了 autowire 属性，并将其属性值设置为 byName（按属性名称自动装配）。
+在上述配置文件中，用于配置 personService 和 personAction 的 `<bean>` 元素中除了 id 和 class 属性以外，还增加了 autowire 属性，并将其属性值设置为 byName（按属性名称自动装配）。
 
-默认情况下，配置文件中需要通过 ref 装配 Bean，但设置了 autowire="byName"，Spring 会在配置文件中自动寻找与属性名字 personDao 相同的 <bean>，找到后，通过调用 setPersonDao（PersonDao personDao）方法将 id 为 personDao 的 Bean 注入 id 为 personService 的 Bean 中，这时就不需要通过 ref 装配了。
+默认情况下，配置文件中需要通过 ref 装配 Bean，但设置了 autowire="byName"，Spring 会在配置文件中自动寻找与属性名字 personDao 相同的 `<bean>`，找到后，通过调用 setPersonDao（PersonDao personDao）方法将 id 为 personDao 的 Bean 注入 id 为 personService 的 Bean 中，这时就不需要通过 ref 装配了。
 
 使用 JUnit 再次运行测试类中的 test() 方法，控制台的显示结果如图 1 所示。
 
-运行结果
+![](images/image2.png)
 图 1  运行结果
 
 从图 1 的输出结果中可以看出，使用自动装配的方式同样完成了依赖注入。
