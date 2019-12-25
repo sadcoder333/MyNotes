@@ -56,7 +56,7 @@
     * [Maven教程](Java/Maven教程.md)
     * [Spring](Java/Spring/README.md)
         * [spring体系结构](Java/Spring/spring体系结构.md)
-        * [spring核心:IOC和DI](Java/Spring/spring核心:IOC和DI.md)
+        * [spring核心:IOC和DI](Java/Spring/spring核心-IOC和DI.md)
         * [BeanFactory和ApplicationContext](Java/Spring/BeanFactory和ApplicationContext.md)
         * [属性注入和构造注入](Java/Spring/属性注入和构造注入.md)
         * [Bean的配置及常用属性](Java/Spring/Bean的配置及常用属性.md)
